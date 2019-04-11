@@ -33,5 +33,37 @@ while c!=0:
     stack.pop(0)
     c-=1
     print(stack)
+print("------------------------------------------------------------------------------ ")
+queue=[]
+b=0
+while b < 10 :
+    queue.append(input())
+    b += 1
+c=len(queue)
+while True:
+    print(queue[0])
+    queue.pop(0)
+    c-=1
+    if c==0:
+        break;
+    
+print(queue)
+
+stack=[]
+b=0
+while b < 10 :
+    stack.insert(0,input())
+    b += 1
+c=len(stack)
+while True:
+    print(stack[0])
+    stack.pop(0)
+    c-=1
+    if c==0:
+        break;
+    
+print(stack)
+
+
         
     
